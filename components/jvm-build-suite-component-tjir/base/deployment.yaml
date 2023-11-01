@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-tjir
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/hugares/jvm-build-omkc-tenant/jvm-build-suite-application-jwmi/jvm-build-suite-component-tjir@sha256:80d7719eab770810b76310a3053b83d3431c32a95a2bca57186d4c16706d091b
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
