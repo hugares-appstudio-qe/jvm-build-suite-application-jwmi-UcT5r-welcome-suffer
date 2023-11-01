@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-tjir
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/hugares/jvm-build-omkc-tenant/jvm-build-suite-application-jwmi/jvm-build-suite-component-tjir@sha256:80d7719eab770810b76310a3053b83d3431c32a95a2bca57186d4c16706d091b
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
